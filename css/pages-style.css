@@ -1,0 +1,179 @@
+@import url('all.min.css');
+@import url('partial/globle.css');
+@import url('partial/variables.css');
+
+/*Start of styling for slider*/
+.slider{
+	position: relative;
+	top:4.2rem;
+	left:0;
+	right: 0;
+	z-index: 10;
+}
+.slider .carousel-caption{
+	bottom: 4rem;
+}
+.slider .carousel-caption .links{
+	margin-top: 4rem;
+	display: flex;
+	flex-direction: column;
+}
+.slider .carousel-caption .links a{
+	text-decoration: none;
+	font-size: 10px;
+	font-weight: 600;
+	transition: .4s ease;
+}
+.slider .carousel-caption .links .fa-phone-volume{
+	font-size: 30px;
+	padding-bottom: 1rem;
+}
+.slider .carousel-caption .links a:hover,
+.slider .carousel-caption .links .fa-phone-volume:hover{
+	color:#fff;
+}
+/*End of styling for slider*/
+/*Start of styling for food*/
+.food{
+	position: relative;
+	top:4.2rem;
+	z-index: 10;
+	padding: 4rem 2rem 9rem 2rem;
+}
+.food .food-m .food-l{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+.food .food-m a{
+	text-decoration: none;
+}
+.food .food-special .food-cards{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+}
+.food .food-special .food-cards .card{
+	border:none;
+	outline: none;
+	box-shadow: var(--box-shadow);
+}
+.food .food-special .food-cards .card-2{
+	position: relative;
+	top:.9rem;
+	right: 0;
+	left: -1rem;
+	z-index: -1;
+	width:320px;
+	height: 220px;
+	opacity: .7;
+}
+.food .food-special .food-cards .card .card-body p{
+	font-size: 16px;
+	font-weight: 700;
+}
+/*End of styling for food*/
+/*Start of styling for Reservation*/
+.reservation{
+	background: url('../images/home-2-images/banner.jpg')no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.reservation .res-desc{
+	padding: 3rem 2rem;
+}
+.reservation .reservation-form form{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+.reservation .reservation-form form input{
+	width: 48%;
+	height: auto;
+	outline: none;
+	border:none;
+	padding: .4rem .5rem;
+	width: 47%;
+	margin-top: 1rem;
+}
+.reservation .reservation-form form button{
+	margin-top: 2rem;
+}
+.reservation .reservation-form form p{
+	font-size: 12px;
+    font-weight: 700;
+    color:#fff;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+.reservation .reservation-form form a{
+	text-decoration: none;
+	margin-top: 2rem;
+}
+.reservation .reservation-form form h5{
+	color: #fff;
+	transition: .4s ease;
+}
+.reservation .reservation-form form h5:hover{
+	color:var(--gold);
+}
+/*End of styling for Reservation*/
+/*Start of styling for Happy-client*/
+.happy-client{
+	padding: 4rem 2rem;
+}
+.happy-client .client-row .client-heading{
+	margin-bottom: .6rem;
+}
+.happy-client .client-row .happy-client-desc{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+}
+.happy-client .client-row .happy-client-desc .happy-client-detail{
+	padding: 0.3rem 2rem;
+}
+.happy-client .client-row .happy-client-desc .happy-client-detail p{
+	margin-bottom: 1.5rem;
+}
+.happy-client .client-row .happy-client-desc .happy-client-detail h6::before{
+	content: "";
+	height: 1px;
+	width: 26vw;
+	background:gray;
+	display:block;
+	margin-bottom: .5rem;
+}
+.happy-client .client-row .happy-client-desc .happy-client-detail .client-icon{
+	color:var(--gold);
+}
+/*End of styling for Happy-client*/
+/*Start of styling for Gallery*/
+.gallery{
+	padding:3rem 0 4rem 0;
+	background:#edf1f3;
+	overflow-x: hidden;
+}
+.gallery .gallery-heading{
+	margin-bottom: 1rem;
+}
+.gallery .owl-carousel .gallery-img{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+}
+/*End of styling for Gallery*/
+/*Start styling for Opening*/
+.opening{
+	padding: 4rem 2rem;
+}
+.opening .opening-desc{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.opening .opening-desc .opn-day h6{
+	color:var(--gray);
+}
+/*End styling for Opening*/

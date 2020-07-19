@@ -1,0 +1,361 @@
+@import url('all.min.css');
+@import url('partial/globle.css');
+@import url('partial/variables.css');
+
+/*Star of styling for Slider*/
+.slider{
+	position: relative;
+	top:4.2rem;
+	left:0;
+	right: 0;
+	z-index: 10;
+}
+.slider .carousel-caption{
+	position: absolute;
+    right:auto;
+    top: 36%;
+    left:10%;
+    z-index: 10;
+    padding-left: .7rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #fff;
+    text-align: left;
+}
+/*End of styling for Slider*/
+/*Start of styling for explore*/
+main .explore-banner{
+	position:;
+	bottom: 2rem;
+	left:0;
+	right: 0;
+	z-index: 100;
+}
+.explore-img{
+	position: absolute;
+	left:1rem;
+	z-index: 100;
+}
+.explore-img img{
+	width: 120px;
+	height: 140px;
+	margin-left: .7rem;
+}
+main .explore{
+	position: relative;
+	top:4.3rem;
+	left:0;
+	right: 0;
+	z-index: 10;
+	background: #edf1f3;
+}
+.explore .review{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+	padding: .5rem;
+	margin-top:.5rem;
+}
+.explore .review i{
+	padding: .5rem 1rem;
+	font-size: 28px;
+	color:black;
+	transition: .4s ease;
+}
+.explore .review i:last-child:hover{
+	color:var(--gold);
+}
+.explore .review p{
+	font-size: 16px;
+	font-weight: 600;
+}
+.explore .callus{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	padding:.5rem;
+	margin-top:.5rem;
+}
+.explore .callus i{
+	padding:.5rem 1rem;
+	font-size: 28px;
+}
+.explore .callus p{
+	font-size: 16px;
+	font-weight: 600;
+	padding-right: 2rem;
+}
+.explore .callus a{
+	text-decoration: none;
+	color:black;
+	padding-top: .5rem;
+	transition: .4s ease;
+}
+.explore .callus a:hover{
+	color:var(--gold);
+}
+/*End of styling for explore*/
+/*Start of styling for Restaurant*/
+.restaurant{
+	position: relative;
+	top:4.3rem;
+	left:0;
+	right: 0;
+	z-index: 10;
+	margin:4rem 0;
+	padding: 0 2rem; 
+}
+.restaurant .restaurant-desc{
+	padding:3rem 1rem 2rem 1rem;
+}
+.restaurant .restaurant-desc p{
+	padding-top: .7rem;
+}
+.restaurant .restaurant-desc .rest-btn{
+	display: flex;
+	flex-direction: row;
+	margin-top: 3.1rem;
+}
+.restaurant .restaurant-desc .rest-btn a{
+	text-decoration: none;
+	margin-top: 2rem;
+}
+.restaurant .restaurant-desc .rest-btn img{
+	margin-left: 2rem;
+}
+.restaurant .restaurant-img{
+	display: flex;
+	flex-direction: row;
+}
+.restaurant .restaurant-img .bottom{
+	margin:3.7rem .5rem;
+}
+.restaurant .restaurant-img .bottom img:first-child{
+	padding-bottom: .7rem;
+}
+.restaurant .restaurant-img .top img:first-child{
+	padding-bottom: .7rem;
+}
+/*End of styling for Restaurant*/
+/*Start of styling for Banner*/
+.banner{
+	width: 100%;
+	height: auto;
+	overflow-x: hidden;
+	padding-top: 1rem;
+	position: relative;
+	z-index: 10;
+}
+/*End of styling for Banner*/
+/*Start of styling for T-Special*/
+.t-special{
+	position: absolute;
+	top:68rem;
+	left: 0;
+	right: 0;
+	z-index: 100;
+	padding:0 1rem;
+}
+.t-special .card{
+	border: none;
+	margin: 1rem ;
+	cursor: pointer;
+	box-shadow:0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1); ;
+	transition: all .4s ease;
+}
+.t-special .card:hover{
+	box-shadow: var(--box-shadow);
+}
+.t-special .card:hover .card-desc a{
+	color:var(--gold);
+}
+.t-special .white{
+	color: #fff;
+}
+.t-special .card .card-desc{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.t-special .card .card-desc p{
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.t-special .card .card-desc a{
+	text-decoration: none;
+	color:black;
+	transition: .4s ease;
+}
+.t-special .card .card-desc h4{
+	color:var(--gold);
+}
+/*End of styling for T-Special*/
+/*Start styling for food menu*/
+main .food-menu{
+	position: relative;
+	left: 0;
+	right: 0;
+	z-index: 10;
+	margin:0 0 4rem 0;
+	padding: 34rem 1rem 1rem 0;
+}
+.food-menu .menu-desc ul{
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.food-menu .menu-desc ul li{
+	margin-right: 1rem;
+}
+.food-menu .menu-desc ul li:last-child{
+	margin-right:0;
+}
+.food-menu .menu-desc ul li a{
+	display: block;
+	text-decoration: none;
+	color:black;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding:.5rem 1rem;
+}
+.food-menu .menu-desc ul li i{
+	margin-left: .4rem;
+	padding-bottom: .5rem;
+	transition: all .4s ease;
+}
+.food-menu .menu-desc ul .fa-hamburger{
+	margin-left: 2rem;
+}
+.food-menu .menu-desc ul .fa-drumstick-bite{
+	margin-left: 1rem;
+}
+.food-menu .menu-desc ul .fa-cookie{
+	margin-left: 1.2rem;
+}
+.food-menu .menu-desc ul .fa-pizza-slice{
+	margin-left: .8rem;
+}
+.food-menu .menu-desc ul .fa-mug-hot{
+	margin-left: 1rem;
+}
+.food-menu .menu-desc ul .fa-fish{
+	margin-left: 1.2rem;
+}
+.food-menu .menu-desc ul li a:hover i{
+	color:var(--pink);
+} 
+.food-menu .menu-desc ul li a .active{
+	color:var(--pink);
+}
+.food-menu .menu-list {
+	margin-top: 2rem;
+}
+.food-menu .menu-list .menu-price{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.food-menu .menu-list .menu-price h4{
+	padding-right: 2rem;
+	margin-top: .5rem;
+}
+.food-menu .food-btn{
+	display: flex;
+	justify-content: center;
+	margin-top: 2rem;
+}
+.food-menu .food-btn a{
+	text-decoration: none;
+}
+/*End styling for food menu*/
+/*Start of styling for Clients*/
+main .clients{
+	background: url('../images/client-bg.jpg') no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+}
+.clients .clients-title{
+	padding: 3rem 0;
+}
+.clients .clients-title h2{
+	text-transform: capitalize;
+	color:#fff;
+}
+.clients .clients-title h6{
+	text-transform: uppercase;
+	color:#fff;
+	margin-top:2rem;
+}
+.clients .clients-title p{
+	color:#fff;
+	padding: 1rem 4rem;
+}
+.clients .clients-title .client-img{
+	display: flex;
+	justify-content: center;
+}
+.clients .owl-carousel .owl-item img{
+	width: 8.4%;
+}
+.clients .clients-title .client-img img{
+	border-radius: 49%;
+	border:3px solid #fff;
+}
+.clients .clients-title .client-icon{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.clients .clients-title .client-icon i{
+	color:var(--gold);
+}
+/*End of styling for Clients*/
+/*Start of styling for Reserve*/
+main .reserve{
+	padding: 4rem 2rem;
+}
+.reserve .reserve-img,
+.reserve .reserve-form{
+	margin-top: 2rem;
+}
+.reserve .reserve-form form{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.reserve .reserve-form form input{
+	outline: none;
+	border:none;
+	border-bottom: 1px solid #c8cdd0;
+	padding: .4rem .5rem;
+	width: 47%;
+	margin-top: 1rem;
+}
+.reserve .reserve-form form button{
+	margin-top: 3rem;
+}
+.reserve .reserve-form form p{
+	font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 3rem;
+}
+.reserve .reserve-form form a{
+	text-decoration: none;
+	margin-top: 3rem;
+}
+.reserve .reserve-form form h5{
+	color: black;
+	transition: .4s ease;
+}
+.reserve .reserve-form form h5:hover{
+	color: var(--gold);
+}
+/*End of styling for Reserve*/
+

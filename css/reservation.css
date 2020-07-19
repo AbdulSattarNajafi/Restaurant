@@ -1,0 +1,99 @@
+@import url('all.min.css');
+@import url('partial/globle.css');
+@import url('partial/variables.css');
+
+/*Start of styling for Banner*/
+.banner{
+	background: url('../images/reservation-images/banner-1.jpg')no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	top:4.2rem;
+	left:0;
+	right: 0;
+	z-index: 10;
+	overflow-x: hidden; 
+}
+.banner .banner-menu{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 4rem 0;
+}
+.banner .banner-menu h1{
+	color:#fff;
+}
+/*End of styling for Banner*/
+/*Start of styling for Booktable*/
+.booktable{
+	position: relative;
+	top:4.2rem;
+	left:0;
+	right: 0;
+	z-index: 10;
+	padding: 4rem 2rem 8.2rem 2rem;
+}
+.booktable .reservation-desc .reservation-form{
+	margin-top: 1rem;
+}
+.booktable .reservation-desc .reservation-form form{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.booktable .reservation-desc .reservation-form form input{
+	outline: none;
+	border:none;
+	border-bottom: 1px solid #c8cdd0;
+	padding: .4rem .5rem;
+	width: 32%;
+	margin-top: 1rem;
+}
+.booktable .reservation-desc .reservation-form form textarea{
+	border:none;
+	outline: none;
+	border-bottom: 1px solid #c8cdd0;
+	resize: none;
+	width: 100%;
+	height: 6rem;
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+	color:gray;
+}
+.booktable .reservation-desc .reservation-form form button{
+	margin:0 auto;
+}
+/*Endof of styling for Booktable*/
+/*Start of Styling for Special-Reservation*/
+.special-reservation{
+	background: url('../images/reservation-images/special-bg.jpg')no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.special-reservation .reservation-card{
+	padding: 4rem 2rem;
+}
+.special-reservation .reservation-card .dining-cards{
+	margin-top:1.8rem;
+}
+.special-reservation .reservation-card .dining-cards .card{
+	border:none;
+	box-shadow: var(--box-shadow);
+}
+/*End of Styling for Special-Reservation*/
+/*Start of styling for Opening*/
+.opening{
+	padding: 4rem 2rem;
+}
+.opening .opening-desc{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.opening .opening-desc .opn-day h6{
+	color:var(--gray);
+}
+/*End of styling for Opening*/

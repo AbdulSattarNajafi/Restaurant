@@ -1,0 +1,441 @@
+@import url('all.min.css');
+@import url('partial/globle.css');
+@import url('partial/variables.css');
+
+/*Start of styling for Banner*/
+.banner{
+	background: url('../images/blog-images/banner.jpg')no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	top:4.2rem;
+	left:0;
+	right: 0;
+	z-index: 10;
+	overflow-x: hidden; 
+}
+.banner .banner-menu{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 4rem 0;
+}
+.banner .banner-menu h1{
+	color:#fff;
+}
+/*End of styling for Banner*/
+/*Start of styling for Category*/
+.catagory{
+	position: relative;
+	top:4.2rem;
+	left:0;
+	right: 0;
+	z-index: 10;
+	padding: 4rem 2rem 5.5rem 2rem;
+}
+.catagory .foods-category{
+	position: relative;
+	z-index: 1;
+}
+.catagory .foods-category .category-icon i{
+	font-style: 8px;
+	color:var(--pink);
+	padding: .3rem .5rem;
+	background: #ffe9f1;
+	border-radius: 49%;
+	margin-bottom: .4rem;
+}
+.catagory .foods-category .category-icon a{
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	color:black;
+	margin-left: .4rem;
+	transition: .4s ease;
+}
+.catagory .foods-category .category-icon a:hover{
+	color:var(--gold);
+}
+.catagory .utso{
+	margin-top: 1rem;
+	position: relative;
+	z-index: 1;
+}
+.catagory .utso .utso-desc{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+} 
+.catagory .utso .utso-desc .utso-date{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border:1px solid #fff;
+	padding: 0 .4rem;
+	height: 66px;
+	color: #fff;
+	background: var(--gold);
+	outline: 3px solid var(--gold);
+}
+.catagory .utso .utso-desc .utso-detail{
+	margin-left: 2rem;
+	padding-top: 1rem;
+}
+.catagory .recent-post .posts-desc{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-bottom: 1.4rem;
+}
+.catagory .recent-post{
+	margin-top: -4rem;
+}
+.catagory .recent-post .posts-desc .posts-date{
+	margin-left: .6rem;
+	margin-top: -4px;
+}
+.catagory .recent-post .posts-desc .posts-date .bold{
+	font-weight: 700;
+	margin-top: -1rem;
+}
+.catagory .category-links{
+	position: relative;
+	z-index: 10;
+	margin-top:-6.3rem;
+}
+.catagory .category-links .share{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	padding:0.5rem 1rem 0 2.2rem;
+}
+.catagory .category-links .share .share-like{
+	display: flex;
+	flex-direction: row;
+}
+.catagory .category-links .share .share-like i{
+	font-size: 20px;
+	color:var(--pink);
+	margin:.5rem .8rem 0 0;
+}
+.catagory .category-links .share .share-like p{
+	font-style: 6px;
+	color:#fff;
+	margin-top: .4rem;
+	padding: 0 .7rem 0.1rem .7rem;
+	background: var(--pink);
+	border-radius: 30px;
+}
+.catagory .category-links .category-social{
+	display: flex;
+	flex-direction: row;
+}
+.catagory .category-links .category-social i{
+	margin-left: 1rem;
+	color:black;
+	transition: .4s ease;
+}
+.catagory .category-links .category-social .fa-share-alt{
+	padding-top:0.2rem;
+	font-size: 28px;
+}
+.catagory .category-links .category-social .fa-facebook-f{
+	padding:.6rem .8rem .6rem .7rem;
+	border:1px solid gray;
+	border-radius: 49%;
+	transition:all .4s ease;
+}
+.catagory .category-links .category-social .fa-twitter{
+	padding:.6rem;
+	border:1px solid gray;
+	border-radius: 49%;
+	transition:all .4s ease;
+}
+.catagory .category-links .category-social .fa-google-plus-g{
+	padding:.6rem .5rem .6rem .6rem;
+	border:1px solid gray;
+	border-radius: 49%;
+	transition:all .4s ease;
+}
+.catagory .category-links .category-social i:hover{
+	color:var(--gold);
+}
+.catagory .category-links .category-social .fa-facebook-f:hover{
+	border:1px solid var(--pink);
+	border-radius: 49%;
+}  
+.catagory .category-links .category-social .fa-twitter:hover{
+	border:1px solid var(--pink);
+	border-radius: 49%;
+}
+.catagory .category-links .category-social .fa-google-plus-g:hover{
+	border:1px solid var(--pink);
+	border-radius: 49%;
+}
+/*End of styling for Category*/
+/*Start of styling for Archive*/
+.archive{
+	padding:0 2rem 4rem 2rem;
+}
+.archive .foods-category{
+	position: relative;
+	z-index: 1;
+}
+.archive .foods-category .archiver-date{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+.archive .foods-category .archiver-date p{
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.archive .utso{
+	margin-top: 1rem;
+	position: relative;
+	z-index: 1;
+}
+.archive .utso .utso-desc{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+} 
+.archive .utso .utso-desc .utso-date{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border:1px solid #fff;
+	padding: 0 .4rem;
+	height: 66px;
+	color: #fff;
+	background: var(--gold);
+	outline: 3px solid var(--gold);
+}
+.archive .utso .utso-desc .utso-detail{
+	margin-left: 2rem;
+	padding-top: 1rem;
+}
+.archive .recent-post{
+	margin-top:-4rem;
+}
+.archive .recent-post .tags-btn{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 1rem;
+}
+.archive .category-links .share{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	padding:0.5rem 1rem 0 2.2rem;
+}
+.archive .category-links .share .share-like{
+	display: flex;
+	flex-direction: row;
+}
+.archive .category-links .share .share-like i{
+	font-size: 20px;
+	color:var(--pink);
+	margin:.5rem .8rem 0 0;
+}
+.archive .category-links .share .share-like p{
+	font-style: 6px;
+	color:#fff;
+	margin-top: .4rem;
+	padding: 0 .7rem 0.1rem .7rem;
+	background: var(--pink);
+	border-radius: 30px;
+}
+.archive .category-links .category-social{
+	display: flex;
+	flex-direction: row;
+}
+.archive .category-links .category-social i{
+	margin-left: 1rem;
+	color:black;
+	transition: .4s ease;
+}
+.archive .category-links .category-social .fa-share-alt{
+	padding-top:0.2rem;
+	font-size: 28px;
+}
+.archive .category-links .category-social .fa-facebook-f{
+	padding:.6rem .8rem .6rem .7rem;
+	border:1px solid gray;
+	border-radius: 49%;
+	transition:all .4s ease;
+}
+.archive .category-links .category-social .fa-twitter{
+	padding:.6rem;
+	border:1px solid gray;
+	border-radius: 49%;
+	transition:all .4s ease;
+}
+.archive .category-links .category-social .fa-google-plus-g{
+	padding:.6rem .5rem .6rem .6rem;
+	border:1px solid gray;
+	border-radius: 49%;
+	transition:all .4s ease;
+}
+.archive .category-links .category-social i:hover{
+	color:var(--gold);
+}
+.archive .category-links .category-social .fa-facebook-f:hover{
+	border:1px solid var(--pink);
+	border-radius: 49%;
+}  
+.archive .category-links .category-social .fa-twitter:hover{
+	border:1px solid var(--pink);
+	border-radius: 49%;
+}
+.archive .category-links .category-social .fa-google-plus-g:hover{
+	border:1px solid var(--pink);
+	border-radius: 49%;
+}
+/*End of styling for Archive*/
+/*Start of styling for Odio*/
+.odio{
+	padding:0 2rem 4rem 2rem;
+}
+.odio .utso{
+	margin-top: 1rem;
+	position: relative;
+	z-index: 1;
+}
+.odio .utso .utso-desc{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+} 
+.odio .utso .utso-desc .utso-date{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border:1px solid #fff;
+	padding: 0 .4rem;
+	height: 66px;
+	color: #fff;
+	background: var(--gold);
+	outline: 3px solid var(--gold);
+}
+.odio .utso .utso-desc .utso-detail{
+	margin-left: 2rem;
+	padding-top: 1rem;
+}
+.odio .category-links .share{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	padding:0.5rem 1rem 0 2.2rem;
+}
+.odio .category-links .share .share-like{
+	display: flex;
+	flex-direction: row;
+}
+.odio .category-links .share .share-like i{
+	font-size: 20px;
+	color:var(--pink);
+	margin:.5rem .8rem 0 0;
+}
+.odio .category-links .share .share-like p{
+	font-style: 6px;
+	color:#fff;
+	margin-top: .4rem;
+	padding: 0 .7rem 0.1rem .7rem;
+	background: var(--pink);
+	border-radius: 30px;
+}
+.odio .category-links .category-social{
+	display: flex;
+	flex-direction: row;
+}
+.odio .category-links .category-social i{
+	margin-left: 1rem;
+	color:black;
+	transition: .4s ease;
+}
+.odio .category-links .category-social .fa-share-alt{
+	padding-top:0.2rem;
+	font-size: 28px;
+}
+.odio .category-links .category-social .fa-facebook-f{
+	padding:.6rem .8rem .6rem .7rem;
+	border:1px solid gray;
+	border-radius: 49%;
+	transition:all .4s ease;
+}
+.odio .category-links .category-social .fa-twitter{
+	padding:.6rem;
+	border:1px solid gray;
+	border-radius: 49%;
+	transition:all .4s ease;
+}
+.odio .category-links .category-social .fa-google-plus-g{
+	padding:.6rem .5rem .6rem .6rem;
+	border:1px solid gray;
+	border-radius: 49%;
+	transition:all .4s ease;
+}
+.odio .category-links .category-social i:hover{
+	color:var(--gold);
+}
+.odio .category-links .category-social .fa-facebook-f:hover{
+	border:1px solid var(--pink);
+	border-radius: 49%;
+}  
+.odio .category-links .category-social .fa-twitter:hover{
+	border:1px solid var(--pink);
+	border-radius: 49%;
+}
+.odio .category-links .category-social .fa-google-plus-g:hover{
+	border:1px solid var(--pink);
+	border-radius: 49%;
+}
+/*End of styling for Odio*/
+/*Start of styling for Pagination*/
+.pagination{
+	padding: 2rem;
+}
+.pagination .pagination-btns a{
+	background-color:#fff;
+	color:black;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 600;
+	border:1px solid gray;
+	border-radius: 30px;
+	padding: .4rem 1.2rem;
+	margin-right: .2rem;
+	transition: all .4s ease;
+}
+.pagination .pagination-btns .active{
+	background-color: var(--gold);
+	color:#fff;
+	border:1px solid transparent;
+	transition: all .4s ease;
+}
+.pagination .pagination-btns .active:hover{
+	border:1px solid gray;
+	background-color: #fff;
+	color:black;
+}
+.pagination .pagination-btns .now-btn{
+	border:1px solid var(--gold);
+	transition: all .4s ease;
+}
+.pagination .pagination-btns .custom-btn:hover{
+    background-color: var(--gold);
+	color:#fff;
+	border:1px solid transparent;
+}
+/*End of styling for Pagination*/

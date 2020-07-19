@@ -1,0 +1,496 @@
+@import url('partial/globle.css');
+@import url('partial/variables.css');
+
+main .food-menu{
+	margin:0 1rem 4rem 1rem;
+	padding: 40rem 1rem 1rem 1rem;
+    }
+}
+
+@media (max-width: 1028.98px) {
+	.t-special{
+	    top:63rem;
+    }
+}
+
+
+@media (max-width: 991.98px) {
+	.restaurant{
+	top:2rem;
+	margin:4rem 0;
+	padding: 0 2rem; 
+    }
+.restaurant .restaurant-img{
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+}
+.restaurant .restaurant-img .bottom{
+	margin:2rem 0 .3rem 0;
+}
+.restaurant .restaurant-img .bottom img:first-child{
+	padding-bottom: 0;
+}
+.restaurant .restaurant-img .top{
+	margin:0 0 2rem 0;
+}
+.restaurant .restaurant-img .top img:first-child{
+	padding-bottom: 0rem;
+}
+.t-special{
+	    top:78rem;
+    }
+    main .food-menu{
+	padding: 37rem 1rem 1rem 1rem;
+    }
+    .reserve .reserve-img{
+    	display: flex;
+    	flex-flow: row wrap;
+    	justify-content: center;
+    }
+}
+@media (max-width: 767.98px) {
+	h1{
+	font-size: 40px;
+}
+h2{
+	font-size: 32px;
+}
+h3{
+	font-size: 26px;
+}
+h4{
+	font-size: 20px;
+}
+h5{
+	font-size: 18px;
+}
+h6{
+	font-size: 14px;
+}
+.explore-img img{
+	width: 100px;
+	height: 120px;
+	margin-left: .7rem;
+}
+.explore .review{
+	padding: .4rem;
+	margin-top:.4rem;
+}
+.explore .review i{
+	padding: .6rem .4rem;
+	font-size: 18px;
+}
+.explore .review p{
+	font-size: 12px;
+	font-weight: 600;
+}
+.explore .callus{
+	padding:.4rem;
+	margin-top:.4rem;
+}
+.explore .callus i{
+	padding:.6rem .4rem;
+	font-size: 18px;
+}
+.explore .callus p{
+	font-size: 12px;
+	padding-right: 1rem;
+}
+	.t-special{
+	    top:65rem;
+    }
+    .restaurant .restaurant-img .bottom img,
+    .restaurant .restaurant-img .top img{
+    	width: 150px;
+    	height: 85px;
+    }
+.food-menu .menu-desc ul li{
+	margin-right: .1rem;
+}
+.food-menu .menu-desc ul li a{
+	padding:.5rem .5rem;
+}
+}
+@media (max-width: 575.98px) {
+	.t-special{
+	    top:59rem;
+    }
+    .explore-img{
+    	display: none;
+    }
+    main .explore{
+    	display: none;
+    }
+    .t-special .card{
+	margin: 1rem 0;
+}
+    .t-special .card .card-desc p{
+	font-size: 10px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.t-special .card .card-desc a{
+	display: none;
+}
+.t-special .card .card-desc h4{
+	color:var(--gold);
+	font-size: 16px;
+}
+.food-menu .menu-desc ul{
+	flex-direction: column;
+	align-items: center;
+    }
+main .food-menu{
+	margin:0 0 4rem 0;
+	padding: 38rem 1rem 1rem 1rem;
+}
+.food-menu .menu-list .menu-price h4{
+	padding-right: 0rem;
+	margin-top: .5rem;
+}
+    
+}
+@media (max-width: 469.98px){
+	.restaurant .restaurant-desc .rest-btn img{
+	margin-left: 1rem;
+	width: 120px;
+	height: 40px;
+	margin-top: 1.7rem;
+}
+main .food-menu{
+	margin:0 0 4rem 0;
+	padding: 42rem 1rem 1rem 1rem;
+}
+}
+@media (max-width: 369.98px){
+	.restaurant .restaurant-img .bottom img,
+    .restaurant .restaurant-img .top img{
+    	width: 100px;
+    	height: 60px;
+    }
+    .t-special{
+	    top:56rem;
+    }
+}
+@media (max-width: 321.98px){
+	.t-special{
+	    top:59.4rem;
+    }
+    main .food-menu{
+	margin:0 0 4rem 0;
+	padding: 48rem 1rem 1rem 1rem;
+}
+}
+/*Resposive Styling for Home Page*/
+@media (max-width: 991.98px){
+	.slider .carousel-caption{
+		bottom: .1rem;
+	}
+	.slider .carousel-caption .links{
+		margin-top: 1rem;
+		display: flex;
+		flex-direction: column;
+	}
+	.food .food-special .food-cards .card-2{
+		height: 274px;
+	}
+}
+@media (max-width: 767.98px) {
+	h1{
+	font-size: 40px;
+}
+h2{
+	font-size: 32px;
+}
+h3{
+	font-size: 26px;
+}
+h4{
+	font-size: 20px;
+}
+h5{
+	font-size: 18px;
+}
+h6{
+	font-size: 14px;
+}
+}
+@media (max-width: 575.98px) {
+	.food .food-m .food-l{
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: flex-start;
+	}
+	.food .food-m .food-l > .food-name{
+		order:1;
+	}
+	.food .food-m .food-l .food-price{
+		order: 2;
+		margin-bottom: 1rem;
+	}
+	.food .food-special .food-cards{
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: center;
+		margin-top: 1rem;
+		width: 260px;
+		height: auto;
+	}
+	.food .food-special .food-cards .card-2{
+		position: relative;
+		top:1rem;
+		right: 1rem;
+		left: 0rem;
+		z-index: 1;
+		width:260px;
+		height: auto;
+		opacity: 1;
+	}
+	.happy-client .client-row .happy-client-desc .happy-client-detail h6::before{
+		width: 36vw;
+	}
+	.opening .opening-desc{
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+/*Resposive Styling for Menu Page*/
+@media (max-width: 1199.98px) {
+	.speciality .speciality-desc{
+		padding: 4rem 2rem;
+	}
+}
+@media (max-width: 991.98px) {
+	.speciality .speciality-img{
+		height: 360px;
+	}
+}
+/*styling for Blog page*/
+@media (max-width: 991.98px){
+	.catagory .category-links{
+		position: relative;
+		z-index: 10;
+		margin-top:-2rem;
+	}
+}
+@media (max-width: 875.98px){
+/*Responsive styling for Recipe page*/
+    .food-step .steps-reveal .steps-detail .step-counts{
+		margin-top: 1.3rem;
+	}
+	.food-step .steps-reveal .steps-detail .step-desc{
+		padding: 0 1.5rem;
+		margin-top: .8rem;
+	}
+/*styling for Blog page*/
+    .catagory .recent-post .posts-desc{
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		margin-bottom: 1rem;
+	}
+	.catagory .recent-post{
+		margin-top: -2rem;
+	}
+}
+/*styling for Blog page*/
+@media (max-width: 778.98px){
+	.catagory .category-links{
+		margin-top:-5.5rem;
+	}
+}
+@media (max-width: 767.98px) {
+	h1{
+		font-size: 40px;
+	}
+	h2{
+		font-size: 32px;
+	}
+	h3{
+		font-size: 26px;
+	}
+	h4{
+		font-size: 20px;
+	}
+	h5{
+		font-size: 18px;
+	}
+	h6{
+		font-size: 14px;
+	}
+.menu-grid .grid-row .tile-img img{
+	margin-bottom: 1.4rem;
+}
+.menu-grid .grid-row .tile-list .grid-price{
+	margin-top: .8rem;
+}
+/*Responsive styling for Recipe page*/
+    .pakoda .ingre-desc .nutrition{
+		margin-left: 4rem;
+		padding-top: 2rem;
+		padding-bottom: 1rem;
+		margin-top:1rem;
+	}
+	.food-step .steps-reveal .steps-detail .step-counts{
+		margin-top: 1.2rem;
+	}
+	.food-step .steps-reveal .steps-detail .step-desc{
+		padding:0 1.5rem;
+		margin-top: 1.5rem;
+	}
+/*styling for Blog page*/
+    .catagory .foods-category,
+    .catagory .recent-post,
+    .archive .foods-category,
+    .archive .recent-post{
+		margin-top:2rem;
+	}
+	.catagory .foods-category h5,
+	.catagory .recent-post h5,
+	.archive .foods-category h5,
+	.archive .recent-post h5{
+		display: flex;
+		justify-content: center;
+	}
+	.catagory .foods-category .category-icon{
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: flex-start;
+	}
+	.catagory .category-links{
+		margin-top:0;
+	}
+	.catagory .category-links .share,
+	.archive .category-links .share,
+	.odio .category-links .share{
+		padding:0.5rem 0 0 0;
+	}
+/*Start styling for contact page*/
+    .map .location .contact-address{
+		margin-top: 0;
+	}
+}
+
+@media (max-width: 575.98px) {
+	.menu-grid .grid-heading ul{
+		flex-flow: column nowrap;
+	}
+	.menu-grid .grid-row .tile-img{
+		display:none;
+	}
+	.speciality .speciality-img{
+		height: 300px;
+	}
+/*Start of styling for Booktable*/
+    .booktable .reservation-desc .reservation-form form input{
+		width: 49%;
+	}
+/*Responsive styling for Recipe page*/
+    .pakoda .ingre-desc .nutrition{
+		margin-left: 0;
+	}
+}
+@media (max-width: 480.98px) {
+/*Responsive styling for Recipe page*/
+    .food-step .steps-reveal .steps-detail .step-counts{
+    	padding:2rem 2.5rem 1rem 2.5rem;
+		margin-top: 1.6rem;
+	}
+/*styling for Blog page*/
+    .catagory .category-links .share .share-like i,
+    .archive .category-links .share .share-like i,
+    .odio .category-links .share .share-like i{
+		font-size: 12px;
+		margin:.8rem .4rem 0 0;
+	}
+	.catagory .category-links .share .share-like p,
+	.archive .category-links .share .share-like p,
+	.odio .category-links .share .share-like p{
+		margin-top: .5rem;
+		padding: 0 .3rem 0.1rem .3rem;
+	}
+	.catagory .category-links .category-social i,
+	.archive .category-links .category-social i,
+	.odio .category-links .category-social i{
+		margin-left: .2rem;
+		transition: .4s ease;
+	}
+	.catagory .category-links .category-social .fa-share-alt,
+	.archive .category-links .category-social .fa-share-alt,
+	.odio .category-links .category-social .fa-share-alt{
+		padding-top:0.7rem;
+		font-size: 16px;
+	}
+	.catagory .category-links .category-social .fa-facebook-f,
+	.archive .category-links .category-social .fa-facebook-f,
+	.odio .category-links .category-social .fa-facebook-f{
+		font-size: 10px;
+		padding:.3rem .4rem .3rem .4rem;
+		margin-top: .5rem;
+	}
+	.catagory .category-links .category-social .fa-twitter,
+	.archive .category-links .category-social .fa-twitter,
+	.odio .category-links .category-social .fa-twitter{
+		font-size: 10px;
+		padding:.3rem;
+		margin-top: .5rem;
+	}
+	.catagory .category-links .category-social .fa-google-plus-g,
+	.archive .category-links .category-social .fa-google-plus-g,
+	.odio .category-links .category-social .fa-google-plus-g{
+		font-size: 10px;
+		padding:.3rem .2rem .3rem .3rem;
+		margin-top: .5rem;
+	}	
+}
+@media (max-width: 414.98px) {
+/*Responsive styling for Recipe page*/
+    .food-step .steps-reveal .steps-detail .step-counts{
+    	padding:2rem 2.5rem 1rem 2.5rem;
+		margin: 1.4rem 0 5.6rem 0;
+	}	
+	.food-step .steps-reveal .steps-detail .step-desc{
+		padding: .1rem 0 .1rem 1rem;
+		margin-top: .8rem;
+	}
+/*Start styling for contact page*/
+    .map .location .contact-form{
+		padding:2rem 1rem;
+	}
+	.map .location .contact-form form input{
+		width: 100%;
+	}
+	.map .location .contact-form form textarea{
+		width: 100%;
+	}
+	.map .location .contact-address{
+		padding:2rem 1rem;
+	}
+}
+@media (max-width: 322.98px) {
+	.speciality .speciality-img{
+		height: 240px;
+	}
+/*Start of styling for Booktable*/
+    .booktable .reservation-desc .reservation-form form{
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+	.booktable .reservation-desc .reservation-form form input{
+		width: 100%;
+	}
+/*Responsive styling for Recipe page*/
+    .pakoda .download-recipe{
+		display: none;
+	}
+	.food-step .steps-reveal .steps-detail .step-counts{
+    	padding:2rem 2.5rem 1rem 2.5rem;
+		margin: 1.4rem 0 11.8rem 0;
+	}
+}

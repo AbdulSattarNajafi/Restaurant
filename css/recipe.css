@@ -1,0 +1,219 @@
+@import url('all.min.css');
+@import url('partial/globle.css');
+@import url('partial/variables.css');
+
+/*Start of styling for Banner*/
+.banner{
+	background: url('../images/recipe-images/banner.jpg')no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	top:4.2rem;
+	left:0;
+	right: 0;
+	z-index: 10;
+	overflow-x: hidden; 
+}
+.banner .banner-menu{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 4rem 0;
+}
+.banner .banner-menu h1{
+	color:#fff;
+}
+/*End of styling for Banner*/
+/*Start of atyling for Pakoda*/
+.pakoda{
+	position: relative;
+	top:4.2rem;
+	left:0;
+	right: 0;
+	z-index: 10;
+	padding: 4rem 2rem 8.2rem 2rem;
+}
+.pakoda .pakoda-header .pakoda-icon{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.pakoda .pakoda-header .pakoda-icon i{
+	color:var(--gold);
+}
+.pakoda .pakoda-header .pakoda-img{
+	position: relative;
+	margin:2rem 0;
+}
+.pakoda .download-recipe{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	background: #fff;
+	padding: 1rem 1rem 0 1rem;
+	box-shadow: var(--box-shadow);
+	margin-top: -5rem;
+}
+.pakoda .download-recipe .pdf-icon{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.pakoda .download-recipe .pdf-icon i{
+	font-size: 40px;
+	font-weight: 300;
+	color: var(--gold);
+}
+.pakoda .download-recipe .pdf-icon a{
+	text-decoration: none;
+	color:black;
+	transition: .4s ease;
+}
+.pakoda .download-recipe .pdf-icon a:hover{
+	color:var(--gold);
+}
+.pakoda .row .pakoda-text{
+	margin-top: 2rem;
+} 
+.pakoda .ingre-desc .ingredients{
+	margin-top:4rem;
+}
+.pakoda .ingre-desc .ingredients .ingredients-icon{
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	margin-top: .3rem;
+}
+.pakoda .ingre-desc .ingredients .ingredients-icon i{
+	padding: .5rem;
+	color:var(--pink);
+	background: #ffdde9;
+	border-radius: 49%;
+	font-size: 14px;
+}
+.pakoda .ingre-desc .ingredients .ingredients-icon p{
+	font-size: 14px;
+	font-weight: 700;
+	color:black;
+	text-transform: uppercase;
+	margin-left: .6rem;
+}
+.pakoda .ingre-desc .nutrition{
+	margin-left: 1rem;
+	box-shadow: var(--box-shadow);
+	padding-top: 2rem;
+}
+.pakoda .ingre-desc .nutrition .nutrition-desc{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-top:1rem;
+}
+.pakoda .ingre-desc .nutrition .nutrition-desc p{
+	font-size: 14px;
+	color:black;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+/*End of atyling for Pakoda*/
+/*Start of styling for Special-Recipe*/
+.special-recipe{
+	padding:0 2rem 4rem 2rem;
+}
+.special-recipe .special-cards .featured-cards{
+	margin-top: 2rem;
+}
+.special-recipe .special-cards .featured-cards .card{
+	border:none;
+	border-bottom: 1px solid gray;
+	border-radius: 0;
+	cursor: pointer;
+	transition: all .4s ease;
+}
+.special-recipe .special-cards .featured-cards .card .card-icons{
+	display: flex;
+	flex-direction: row;
+	color: var(--gold);
+	font-size: 10px;
+	margin-bottom: 0.4rem;
+} 
+.special-recipe .special-cards .featured-cards .card:hover{
+	box-shadow: var(--box-shadow);
+	border-bottom: none;
+}
+/*End of styling for Special-Recipe*/
+/*Start of styling for Food_step*/
+.food-step{
+	background: url('../images/recipe-images/food-step.jpg')no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding:3rem 2rem;
+}
+.food-step .steps-reveal h4{
+	color:#fff;
+}
+.food-step .row .steps-detail{
+	display: flex;
+	flex-direction: row;
+}
+.food-step .steps-reveal .steps-detail .step-counts{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding:.5rem 1rem 0 1rem;
+	background: #cc8306;
+	border:1px solid var(--gold);
+	outline: 3px solid #cc8306;
+	margin-top: 1rem;
+}
+.food-step .row .steps-detail .step-counts h6,p{
+	color:#fff;
+}
+.food-step .steps-reveal .steps-detail .step-desc{
+	padding: .1rem 1.5rem;
+	margin-top: .8rem;
+}
+/*End of styling for Food_step*/
+/*Start of styling for Featured-recipe*/
+.featured-recipe{
+	padding: 4rem 2rem 0 2rem;
+}
+.featured-recipe .featured-cards{
+	margin-top: 2rem;
+}
+.featured-recipe .featured-cards .card{
+	border:none;
+	border-bottom: 1px solid gray;
+	border-radius: 0;
+	cursor: pointer;
+	transition: all .4s ease;
+}
+.featured-recipe .featured-cards .card .card-body .card-icons{
+	display: flex;
+	flex-direction: row;
+	color: var(--gold);
+	font-size: 10px;
+	margin-bottom: 0.4rem;
+}
+.featured-recipe .featured-cards .card:hover{
+	box-shadow: var(--box-shadow);
+	border-bottom: none;
+}
+/*End of styling for Featured-recipe*/
+/*Start of styling for Opening*/
+.opening{
+	padding: 4rem 2rem;
+}
+.opening .opening-desc{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.opening .opening-desc .opn-day h6{
+	color:var(--gray);
+}
+/*End of styling for Opening*/
